@@ -13,6 +13,6 @@ lines = file.readlines()
 while True:
     for line in lines:
         requests.post(
-            f"https://discord.com/api/v9/channels/{channelID}/messages",
+            f"https://discord.com/api/v9/channels/{980387939085320192}/messages",
             headers=headers,
             json={"content": line})
